@@ -1,0 +1,30 @@
+﻿{
+  "dependencies": {
+    "Microsoft.Azure.Mobile.Client": "2.0.1",
+    "Microsoft.Azure.Mobile.Client.Files": "1.0.0-beta-2",
+    "Microsoft.Azure.Mobile.Client.SQLiteStore": "2.0.1",
+    "Microsoft.Bcl": "1.1.10",
+    "Microsoft.Bcl.Build": "1.0.21",
+    "Microsoft.Data.Edm": "5.6.4",
+    "Microsoft.Data.OData": "5.6.4",
+    "Microsoft.Net.Http": "2.2.29",
+    "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
+    "Newtonsoft.Json": "6.0.8",
+    "PCLStorage": "1.0.2",
+    "SQLitePCL": "3.8.7.2",
+    "System.Spatial": "5.6.4",
+    "WindowsAzure.Storage": "7.0.1-preview",
+    "Xamarin.Forms": "2.1.0.6529"
+  },
+  "frameworks": {
+    "uap10.0": {}
+  },
+  "runtimes": {
+    "win10-arm": {},
+    "win10-arm-aot": {},
+    "win10-x86": {},
+    "win10-x86-aot": {},
+    "win10-x64": {},
+    "win10-x64-aot": {}
+  }
+}
