@@ -68,7 +68,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\x86\Debug\</OutputPath>
-    <DefineConstants>TRACE;DEBUG;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS;WIN_APPS</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS;WIN_APPS;CODE_ANALYSIS;WIN_APPS</DefineConstants>
     <NoWarn>;2008</NoWarn>
     <DebugType>full</DebugType>
     <PlatformTarget>x86</PlatformTarget>
@@ -129,6 +129,10 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\azure-mobile-apps-net-files-client\src\Microsoft.WindowsAzure.Mobile.Files\Microsoft.WindowsAzure.Mobile.Files.csproj">
+      <Project>{5b3bea58-ee5d-467c-9906-30176c0d4740}</Project>
+      <Name>Microsoft.WindowsAzure.Mobile.Files</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Monocle\Monocle.csproj">
       <Name>Monocle</Name>
     </ProjectReference>
@@ -141,6 +145,7 @@
       <Name>SQLite for Universal Windows Platform</Name>
     </SDKReference>
   </ItemGroup>
+  <Import Project="..\..\..\..\azure-mobile-apps-net-files-client\src\Microsoft.WindowsAzure.Mobile.Files.Shared\Microsoft.WindowsAzure.Mobile.Files.Shared.projitems" Label="Shared" />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
